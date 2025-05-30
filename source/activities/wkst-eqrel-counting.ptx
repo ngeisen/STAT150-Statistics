@@ -11,7 +11,7 @@
         </p>
       </statement>
 
-      <solution component="w2s">
+      <solution>
         <p>
           Since <m>R</m> is an equivalence relation, the relation is reflexive, so every element is related to itself. Since we are told <m>aRd</m>, this means by symmetry that <m>d R a</m>. Similarly, <m>cRb</m> because <m>bRc</m> and <m>dRe</m> because <m>eRd</m>. By transitivity, we have that <m>aRe</m> and <m>e R a</m>. To make writing the elements of <m>R</m> easier to see, here is the equivalence relation as a diagram:
         </p>
@@ -59,7 +59,7 @@
             The relation <m>R</m> on <m>\Z</m>, where <m>xR y </m> if and only if <m>3x -5y </m> is even.
           </p>
         </statement>
-        <solution component="w2s">
+        <solution >
           <p>
             We need to show that this relation is reflexive, symmetric, and transitive.
           </p>
@@ -297,7 +297,7 @@
         </p>
       </statement>
 
-      <solution component="w2s">
+      <solution >
         <p>
           There are <m>3</m> choices for the first character in the string, and <m>2</m> choices for the second character. For the third, since we cannot have two consecutive characters be the same, we therefore have <m>2</m> choices. Similarly, there are <m>2</m> choices for the fourth, etc. Hence, there are <m>3 \cdot 2^9</m> strings of length <m>10</m> in which no two consecutive characters are the same.
         </p>
